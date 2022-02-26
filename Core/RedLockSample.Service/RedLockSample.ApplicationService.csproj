@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+ 
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedLockSample.Common\RedLockSample.Common.csproj" />
+    <ProjectReference Include="..\RedLockSample.Contract\RedLockSample.Contract.csproj" />
+  </ItemGroup>
+ 
+
+</Project>

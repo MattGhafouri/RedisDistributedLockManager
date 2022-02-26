@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RedLock.net" Version="2.3.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.79" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\RedLockSample.Common\RedLockSample.Common.csproj" />
+    <ProjectReference Include="..\..\Core\RedLockSample.Contract\RedLockSample.Contract.csproj" />
+    <ProjectReference Include="..\..\Core\RedLockSample.Service\RedLockSample.ApplicationService.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\RedLockSample.Caching\RedLockSample.Caching.csproj" />
+  </ItemGroup>
+
+ 
+
+</Project>

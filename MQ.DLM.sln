@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{69F9D542-04DB-44AA-A559-C457ED26B355}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D07C7285-733E-4D0D-8055-4AE779A8A047}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLockSample.Caching", "Infrastructure\RedLockSample.Caching\RedLockSample.Caching.csproj", "{6A0A699E-A9F4-41EE-AFB4-C08886BE03BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLockSample.Common", "Core\RedLockSample.Common\RedLockSample.Common.csproj", "{C5922995-286F-426F-B397-A5216A6CCA07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLockSample.Contract", "Core\RedLockSample.Contract\RedLockSample.Contract.csproj", "{FB065CAF-4890-4FA0-99AB-F718F2290006}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLockSample.ApplicationService", "Core\RedLockSample.Service\RedLockSample.ApplicationService.csproj", "{2E8C8017-73D2-4F23-BC2A-6A7051068210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EF5B90AC-6124-4700-AE76-05E0DDAA6E6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLockSample", "Presentation\RedLockSample\RedLockSample.csproj", "{2CE4FF9A-EE82-4D0F-B84E-5399E4CB71A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A0A699E-A9F4-41EE-AFB4-C08886BE03BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0A699E-A9F4-41EE-AFB4-C08886BE03BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0A699E-A9F4-41EE-AFB4-C08886BE03BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0A699E-A9F4-41EE-AFB4-C08886BE03BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5922995-286F-426F-B397-A5216A6CCA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5922995-286F-426F-B397-A5216A6CCA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5922995-286F-426F-B397-A5216A6CCA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5922995-286F-426F-B397-A5216A6CCA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB065CAF-4890-4FA0-99AB-F718F2290006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB065CAF-4890-4FA0-99AB-F718F2290006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB065CAF-4890-4FA0-99AB-F718F2290006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB065CAF-4890-4FA0-99AB-F718F2290006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8C8017-73D2-4F23-BC2A-6A7051068210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8C8017-73D2-4F23-BC2A-6A7051068210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8C8017-73D2-4F23-BC2A-6A7051068210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8C8017-73D2-4F23-BC2A-6A7051068210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE4FF9A-EE82-4D0F-B84E-5399E4CB71A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE4FF9A-EE82-4D0F-B84E-5399E4CB71A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE4FF9A-EE82-4D0F-B84E-5399E4CB71A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE4FF9A-EE82-4D0F-B84E-5399E4CB71A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A0A699E-A9F4-41EE-AFB4-C08886BE03BF} = {D07C7285-733E-4D0D-8055-4AE779A8A047}
+		{C5922995-286F-426F-B397-A5216A6CCA07} = {69F9D542-04DB-44AA-A559-C457ED26B355}
+		{FB065CAF-4890-4FA0-99AB-F718F2290006} = {69F9D542-04DB-44AA-A559-C457ED26B355}
+		{2E8C8017-73D2-4F23-BC2A-6A7051068210} = {69F9D542-04DB-44AA-A559-C457ED26B355}
+		{2CE4FF9A-EE82-4D0F-B84E-5399E4CB71A2} = {EF5B90AC-6124-4700-AE76-05E0DDAA6E6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9A983F7-24D7-4137-8F5C-39BE0961230A}
+	EndGlobalSection
+EndGlobal
