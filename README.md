@@ -4,6 +4,11 @@ Distributed locks are a very useful primitive in many environments where differe
 
 This implementation use dot net C# and [Relock.Net](https://github.com/samcook/RedLock.net) to provide a more canonical algorithm to implement distributed locks with Redis which is called Redlock.
 
+## Used Technologies
+dotnet 6.0
+
+Redis cache
+
 
 ## Resources
 - You can read my [Article](https://medium.com/@m-qafouri/serialize-access-to-a-shared-resource-in-distributed-systems-with-dlm-distributed-lock-manager-5abf5e393e15) about the concept of Distributed Lock manager to control exclusive access to a shared resource.
