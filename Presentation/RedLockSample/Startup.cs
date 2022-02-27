@@ -38,7 +38,7 @@ namespace RedLockSample
             services.ConfigureDLM(Configuration);
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifeTime)
         {
             if (env.IsDevelopment())
             {
@@ -55,6 +55,9 @@ namespace RedLockSample
             {
                 endpoints.MapControllers();
             });
-        } 
+
+            lifeTime.DisposeLockFactory();
+
+        }
     }
 }
